@@ -14,6 +14,7 @@ The project is organized into three main directories: controller, model, and vie
 
 ## Directory Structure
 ```
+controller/
     addFlat.mjs
     addToFavorites.mjs
     changeContainer.mjs
