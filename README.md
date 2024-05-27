@@ -13,10 +13,7 @@ The project is organized into three main directories: controller, model, and vie
 - view: Contains the user interface components and rendering logic.
 
 ## Directory Structure
-copy
-?
-?
-
+`
     addFlat.mjs
     addToFavorites.mjs
     changeContainer.mjs
@@ -51,7 +48,7 @@ view/
     renderFlat.mjs
     rent.mjs
     updateFlatCard.mjs
-
+`
 ## Installation and Setup
 1. Clone the repository to your local machine.
 2. Open the project directory and install the required dependencies.
