@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/registration.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+</head>
+<body>
+
+<div class="background-video">
+    <video src="videos/video1.mp4" class="video_media" autoplay muted loop></video>
+</div>
+
+<div class="login">
+  <h2 class="active"> sign in </h2>
+  <form>
+    <input id="input-username" type="text" class="text" name="username" required pattern="[a-zA-Z0-9]+">
+    <span>username</span>
+    <br>
+    <br>
+    <input id="input-password" type="password" class="text" name="password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
+    <span>password</span>
+    <br>
+    <button id="sign-in-btn" class="signin">
+      Sign In
+    </button>
+  </form>
+</div>
+
+<script src="js/view/registration.mjs" type="module"></script>
+</body>
+</html>

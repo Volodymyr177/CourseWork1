@@ -1,0 +1,16 @@
+export const form = document.querySelector('#form')
+export const inputRooms = document.querySelector('#select-rooms')
+export const inputArea = document.querySelector('#input-area')
+export const inputPrice = document.querySelector('#input-price')
+export const inputDistrict = document.querySelector('#select-district')
+export const inputFloor = document.querySelector('#input-floor')
+export const inputDescription = document.querySelector('#input-description')
+export const btnSearch = document.querySelector('#search')
+export const inputSearch = document.querySelector('#input-search')
+export const formSearch = document.querySelector('#search-form');
+export const btnSign = document.querySelector('#sign-in-btn')
+export const inputUsername = document.querySelector('#input-username')
+export const inputPassword = document.querySelector('#input-password')
+export const containerLiked = document.querySelector('#liked');
+export const container = document.querySelector('#container')
+export const photoUploadInput = document.querySelector('#photo-upload-input');

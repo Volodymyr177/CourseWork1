@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(to top, #eee, #eee);
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.font {
+    font-family: "Montserrat", cursive;
+}
+
+.header-img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.account {
+    margin-left: 90%;
+    margin-top: -23%;
+}
+
+main {
+    margin-top: 30%;
+    padding: 20px;
+}
+
+.header {
+    font-weight: bold;
+    text-align: left;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    font-family: "Montserrat", cursive;
+}
+
+.aboutus .row .image {
+    flex: 1 1 640px;
+}
+
+.aboutus .row .image img {
+    width: 80%;
+    margin-left: 15%;
+    margin-top: -3%;
+}
+
+.aboutus .row .content {
+    flex: 600px;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.aboutus .row .content h3 {
+    font-size: 27px;
+    color: black;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.aboutus .row .content p {
+    line-height: 32px;
+    padding: 16px 20px;
+    font-size: 21px;
+    color: #ffffff;
+    background: linear-gradient(135deg,  rgba(76,76,76,0.85) 0%,rgba(89,89,89,0.85) 12%,rgba(71,71,71,0.85) 23%,rgba(71,71,71,0.85) 23%,rgba(102,102,102,0.85) 25%,rgba(43,43,43,0.85) 45%,rgba(44,44,44,0.85) 50%,rgba(17,17,17,0.85) 60%,rgba(43,43,43,0.85) 77%,rgba(43,43,43,0.85) 77%,rgba(0,0,0,0.85) 84%,rgba(0,0,0,0.85) 84%,rgba(28,28,28,0.85) 91%,rgba(19,19,19,0.85) 100%);
+    width: 100%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.inline-btn {
+    margin-top: 10px;
+    padding: 10px 40px;
+    background-color: #DA2C32;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Montserrat", cursive;
+}
+
+.inline-btn:hover {
+    background-color: black;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+}
+
+.inline-btn {
+    display: inline-block;
+}
